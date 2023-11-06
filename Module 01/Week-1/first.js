@@ -9,6 +9,3 @@ console.log(x);
     let name = "Almain";
     console.log(name);
 }
-
-
-
