@@ -1,7 +1,7 @@
 let x = "Here's use apostoppy";
 console.log(x.length);
-let y = "Hello sir! '\how\' are you?"
-console.log(y)
+let y = "Hello sir! '\how\' are you?";
+console.log(y);
 let longLine = "Its a long line and now go back to new line\
 its another line but in consol sow in one line";
 console.log(longLine);
