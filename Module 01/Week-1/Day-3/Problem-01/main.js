@@ -51,6 +51,13 @@ function cechkVowel(sentence){
             count++;
         }
     });
-    console.log(count);
+    return count;
 }
-cechkVowel("Hello sir how are you!!")
+console.log(cechkVowel("Hello sir how are you!!"));
+//find dupilcate number form the array
+
+const arr = [1,2, 3, 5, 6, 7, 3, 2, 3, 7, 4, 4];
+const dup_num = arr.filter(function(value, index, array){
+    return array.indexOf(value) !== index;
+})
+console.log(dup_num);
