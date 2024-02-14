@@ -1,0 +1,28 @@
+body{
+    background-color: antiquewhite;
+    border: 5px solid red;
+}
+/* .container{
+    
+} */
+.box{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    
+}
+
+#box-1{
+    background-color: yellowgreen;
+}
+#box-2{
+    background-color: rgb(40, 56, 7);
+    position: relative;
+    top: 10px;
+    left: 155px;
+}
+#box-3{
+    position: relative;
+    top: -150px;
+    background-color: rgb(39, 13, 203);
+}
