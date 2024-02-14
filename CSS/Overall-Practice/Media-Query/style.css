@@ -1,0 +1,22 @@
+body{
+    background-color: antiquewhite;
+}
+
+.welcome-message{
+    border: 5px solid rgb(240, 73, 221);
+    text-align: center;
+    background-color: blueviolet;
+    color: antiquewhite;
+}
+
+@media only screen and (max-width:688px) {
+    .welcome-message{
+        background-color: brown;
+    }
+}
+
+@media only screen and (min-width:689px) and (max-width:1024px) {
+    body{
+        background-color: aqua;
+    }
+}
