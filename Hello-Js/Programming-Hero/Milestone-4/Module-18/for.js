@@ -15,3 +15,11 @@ for(var i = 0; i<number.length; i++){
         continue;
     console.log(number[i])
 }
+
+//reverse print
+
+for(var i = 10; i>= 0 ; i--)
+    console.log(i)
+
+var namee = "md Al Amin";
+console.log(namee.includes('Al'));
