@@ -9,7 +9,7 @@ num2 = temp
 
 console.log('After Swaping', num, num2)
 
-// Another way--- Desstructuring
+// Another way--- Destructuring
 first = 11
 second = 20
 
