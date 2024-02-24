@@ -17,3 +17,5 @@ console.log(randomNumber)
 
 const newNUm = Math.round(Math.random() * 100) + 3;
 console.log(newNUm)
+
+console.log(Math.max(2, 34, 5, 6, 7,8 ));
