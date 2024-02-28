@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    color: white;
+    border: 2px solid tomato;
+}
+
+ul{
+    border: 2px solid wheat;
+}
+#item-2{
+    border: 1px solid blue;
+}
