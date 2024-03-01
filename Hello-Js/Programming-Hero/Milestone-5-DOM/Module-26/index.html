@@ -4,8 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Baper Bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <H1>Welcome to My Baaper Bank</H1>
+    <header class="mb-5">
+        <h1 class="text-5xl text-center mt-6">
+            Welcome to <span class="underline font-bold text-violet-600">DadduR</span> Bank!!
+        </h1>
+    </header>
+    <main>
+        <section class="bg-amber-400 w-9/12 mx-auto mt-15 p-8 rounded-md">
+            <h3 class="text-3xl mb-4">Please Login</h3>
+            <div>
+                <input class="w-9/12 block mb-3 rounded py-2 px-3" type="email" name="" id="user-email" placeholder="Email">
+                <input class="w-9/12 block rounded py-2 px-3" type="password" name="" id="user-password" placeholder="Password">
+                <button id="btn-submit" class="bg-purple-900 text-white mt-3 rounded-md px-7 py-2 hover:bg-sky-700" type="submit">Submit</button>
+            </div>
+        </section>
+    </main>
+    <script src="js/login.js"></script>
 </body>
 </html>
