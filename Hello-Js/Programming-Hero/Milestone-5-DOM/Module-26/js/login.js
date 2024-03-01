@@ -11,7 +11,8 @@ document.getElementById('btn-submit').addEventListener('click', function(){
 
     if((email === 'alamin@gmail.com') && (password === 'hello1234')){
         console.log('valid password')
+        window.location.href = 'bank.html'
     }
     else
-        console.log('invalid pass')
+        alert('Invalid Password')
 })
