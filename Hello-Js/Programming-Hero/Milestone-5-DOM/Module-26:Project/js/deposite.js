@@ -23,6 +23,10 @@ document.getElementById('btn-deposit').addEventListener('click', function(event)
 document.getElementById('btn-withdrow').addEventListener('click', function(){
     const withdrowField = document.getElementById('user-withdrow')
     const withdrowAmount = parseInt(withdrowField.value)
+    if(isNaN(withdrowAmount)){
+        alert('Please input an integer value')
+        return
+    }
     
     const previousWithdrowData = document.getElementById('withdrow-total')
     const previousWithdrowAmount = parseInt(previousWithdrowData.innerText)
