@@ -10,18 +10,23 @@
     <h1 class="text-5xl text-center mt-4">Welcome to MY <span class="text-red-500" >Bapper Babbar</span> Bannk</h1>
     <main>
         <section>
-            <div>
-                <div>
-                    <h4>Deposite</h4>
+            <div class="mt-10 grid grid-cols-3 gap-4 w-3/4 mx-auto text-white">
+                <div class="bg-yellow-500 p-8 rounded-lg">
+                    <h4 class="text-3xl">Deposite</h4>
+                    <h2 class="text-4xl">$<span id="deposit-total">00</span></h2>
                 </div>
-                <div>
-                    <h4>Withdrow</h4>
+                <div class="bg-blue-500 p-8 rounded-lg">
+                    <h4 class="text-3xl">Withdrow</h4>
+                    <h2 class="text-4xl">$<span id="withdrow-total">00</span></h2>
                 </div>
-                <div>
-                    <h4>Total Balance</h4>
+                <div class="bg-green-500 p-8 rounded-lg">
+                    <h4 class="text-3xl">Total Balance</h4>
+                    <h2 class="text-4xl">$<span id="balance-total">120</span></h2>
                 </div>
+                
             </div>
         </section>
     </main>
+    <script src="login.js"></script>
 </body>
 </html>
